@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main {
+    width: 950px;
+    margin: 0 auto; /* canh giữa */
+}
+
+#header {
+    height: 150px;
+    background-color: #ffe8a6;
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px;
+    color: #293955;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+#commandContainer {
+    height: 40px;
+    background-color: #0a6332;
+    color: #fff;
+}
+
+#navigation {
+    float: left;
+}
+
+	#navigation ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		height: 40px;
+	}
+	
+	#navigation li {
+		float: left;
+		border-right: 1px dashed;
+		line-height: 40px;
+	}
+
+#userCommand {
+    float: right;
+    line-height: 40px;
+    padding-right: 10px;
+}
+
+#body {
+    margin-top: 15px;
+}
+
+#left {
+    float: left;
+    width: 220px;
+}
+
+#right {
+    float: left;
+    width: 725px;
+    margin-left: 5px;
+}
+
+#left-header-left {
+    background-position: left top;
+    width: 35px;
+    height: 30px;
+    background-image: url('../imgs/header_left.gif');
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#left-header-main {
+    background-position: left top;
+    width: 175px;
+    height: 30px;
+    background-image: url('../imgs/header_main.gif');
+    background-repeat: repeat-x;
+    float: left;
+    color: #fff;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 5px;
+}
+
+#left-body {
+    clear: both;
+    border: 1px solid #e2e6e7;
+    width: 206px;
+    padding: 5px 0px 5px 7px;
+}
+
+#right-header-left {
+    width: 35px;
+    height: 30px;
+    background-position: left top;
+    background-image: url('../imgs/header_left.gif');
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#right-header-main {
+    background-position: left top;
+    height: 30px;
+    color: #fff;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 30px;
+    margin-left: 35px;
+    padding-left: 5px;
+    background-image: url('../imgs/header_main.gif');
+    background-repeat: repeat-x;
+}
+
+#right-body {
+    clear: both;
+    padding: 5px 0px 5px 7px;
+    border: 1px solid #e2e6e7;
+    margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#footer {
+    clear: both;
+    background-color: #094ab2;
+    color: #fff;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10pt;
+    text-align: center;
+}
+
+    #footer div {
+        line-height: 16pt;
+    }
